@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	background-color: rgb(26, 174, 243);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+
+/* main {
+    height: 175vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+  } */
+
+footer {
+	color: azure;
+	background-color: rgb(26, 174, 243);
+	margin-top: auto;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
