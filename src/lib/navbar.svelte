@@ -1,11 +1,15 @@
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
 <div class="name-logo">
 	<p class="name">غدير</p>
 	<p class="name">عاقلة</p>
 </div>
 <nav class="headbar">
-	<a href="/">Home</a>
-	<a href="/">Contacts</a>
-	<a href="/comic">Comic</a>
+	<a href="{base}/">Home</a>
+	<a href="{base}/">Contacts</a>
+	<a href="{base}/comic">Comic</a>
 </nav>
 
 <style>
